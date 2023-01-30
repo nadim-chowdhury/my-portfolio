@@ -97,7 +97,7 @@ const Body = () => {
 
             <div className="flex m-5 p-2 text-4xl w-60 items-center justify-center skills max-[499px]:m-1 max-[399px]:ml-8">
               <box-icon color="white" name="sass" type="logo"></box-icon>
-              <h3>Git</h3>
+              <h3>Sass</h3>
             </div>
 
             <div className="flex m-5 p-2 text-4xl w-60 items-center justify-center skills max-[499px]:m-1 max-[399px]:ml-8">
