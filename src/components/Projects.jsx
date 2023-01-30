@@ -14,21 +14,21 @@ const Projects = () => {
 
         <div className="flex-col justify-between  max-[499px]:w-72 max-[899px]:w-full max-[499px]:ml-[22px] max-[399px]:ml-[36px]">
           <div className="flex justify-around max-[499px]:flex-col max-[899px]:flex-col">
-            <img className="w-[480px]" src={Aimg} alt="img" />
-            <img className="w-[480px]" src={A2img} alt="img" />
-            <img className="w-[480px]" src={A3img} alt="img" />
+            <img className="w-[420px]" src={Aimg} alt="img" />
+            <img className="w-[420px]" src={A2img} alt="img" />
+            <img className="w-[420px]" src={A3img} alt="img" />
           </div>
 
           <div className="flex justify-around max-[499px]:flex-col max-[899px]:flex-col">
-            <img className="w-[480px]" src={Eimg} alt="img" />
-            <img className="w-[480px]" src={E2img} alt="img" />
-            <img className="w-[480px]" src={Eimg} alt="img" />
+            <img className="w-[420px]" src={Eimg} alt="img" />
+            <img className="w-[420px]" src={E2img} alt="img" />
+            <img className="w-[420px]" src={Eimg} alt="img" />
           </div>
 
           <div className="flex justify-around max-[499px]:flex-col max-[899px]:flex-col">
-            <img className="w-[480px]" src={Dimg} alt="img" />
-            <img className="w-[480px]" src={Dimg} alt="img" />
-            <img className="w-[480px]" src={Dimg} alt="img" />
+            <img className="w-[420px]" src={Dimg} alt="img" />
+            <img className="w-[420px]" src={Dimg} alt="img" />
+            <img className="w-[420px]" src={Dimg} alt="img" />
           </div>
         </div>
       </section>
