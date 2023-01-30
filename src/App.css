@@ -18,9 +18,22 @@ body {
   background: linear-gradient(#0f2027);
 }
 
-.my-navbar h1:hover,
+/* .my-navbar h1:hover,
 .my-navbar li:hover {
-  color: #dddddd;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+  border-radius: 10px;
+} */
+
+.hire-me-btn button {
+  border: 2px solid #fff;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+
+.hire-me-btn button:hover {
+  background-color: #fff;
+  color: #0f2027;
   transition: 0.5s;
 }
 

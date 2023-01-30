@@ -7,9 +7,9 @@ const Contact = () => {
       <h2 className="my-title font-semibold" id="contact">
         Share Thoughts
       </h2>
-      <div className="flex justify-center items-center max-[499px]:flex-col max-[899px]:flex-col ">
+      <div className="flex justify-around items-center max-[499px]:flex-col max-[899px]:flex-col ">
         <div className="max-[499px]:mb-10 max-[499px]:w-72 max-[899px]:mb-10 max-[899px]:w-80">
-          <img className="w-80 rounded-xl mr-8" src={Aaimg} alt="img" />
+          <img className="w-80 rounded-xl" src={Aaimg} alt="img" />
         </div>
 
         <div>
@@ -43,6 +43,10 @@ const Contact = () => {
               </div>
             </form>
           </div>
+        </div>
+
+        <div className="max-[499px]:mb-10 max-[499px]:w-72 max-[899px]:mb-10 max-[899px]:w-80">
+          <img className="w-80 rounded-xl" src={Aaimg} alt="img" />
         </div>
       </div>
     </div>
