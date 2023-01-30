@@ -88,7 +88,7 @@ const Body = () => {
                 name="tailwind-css"
                 type="logo"
               ></box-icon>
-              <h3>TailWind Css</h3>
+              <h3>TailWind</h3>
             </div>
 
             <div className="flex m-5 p-2 text-3xl w-60 items-center justify-center skills max-[499px]:m-1 max-[399px]:ml-8">
@@ -103,7 +103,7 @@ const Body = () => {
 
             <div className="flex m-5 p-2 text-3xl w-60 items-center justify-center skills max-[499px]:m-1 max-[399px]:ml-8">
               <box-icon color="white" name="component" type="solid"></box-icon>
-              <h3>Material Ui</h3>
+              <h3>M Ui</h3>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <div className="my-navbar flex items-center justify-between">
-        <h1 className="logo p-2 lg:text-4xl md:text-3xl max-[499px]:text-xl">
+        <h1 className="logo p-2 lg:text-4xl md:text-3xl max-[499px]:text-xl ml-6">
           <a href="#home">MyPortfolio</a>
         </h1>
 
@@ -22,7 +22,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="hire-me-btn p-2">
+        <div className="hire-me-btn p-2 mr-6">
           <button type="button">Hire Me</button>
         </div>
       </div>
