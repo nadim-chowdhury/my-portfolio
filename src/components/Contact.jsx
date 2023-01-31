@@ -8,12 +8,12 @@ const Contact = () => {
         Share Thoughts
       </h2>
       <div className="flex justify-center items-center max-[499px]:flex-col max-[899px]:flex-col ">
-        <div className="max-[499px]:mb-10 m-3 max-[499px]:w-72 max-[899px]:mb-10 max-[899px]:w-80">
+        <div className="max-[499px]:mb-10 mr-6 max-[499px]:w-72 max-[899px]:mb-10 max-[899px]:w-80">
           <img className="w-80 rounded-xl cl-img" src={Aaimg} alt="img" />
         </div>
 
         <div>
-          <div className="right-side max-[499px]:w-80 m-3">
+          <div className="right-side max-[499px]:w-80">
             <form action="#">
               <div className="text-slate-800 flex justify-center max-[499px]:flex-col">
                 <input
