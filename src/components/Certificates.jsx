@@ -17,7 +17,7 @@ const Certificates = () => {
 
         <div className="flex justify-between max-[499px]:flex-col max-[899px]:flex-col">
           <div className="p-10 max-[499px]:p-3">
-            <a href="https://www.sololearn.com/certificates/ max-[499px]:p-3CT-B9J2MWSX">
+            <a href="https://www.sololearn.com/certificates/CT-B9J2MWSX">
               <img src={Aimg} alt="img" />
             </a>
           </div>
