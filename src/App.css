@@ -148,6 +148,10 @@ body {
   background: linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
 }
 
+/* .cl-img {
+  box-shadow: 0 0 6px rgba(10, 10, 10, 0.4);
+} */
+
 form input {
   height: 40px;
   color: #0f2027;

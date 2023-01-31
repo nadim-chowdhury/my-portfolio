@@ -19,7 +19,7 @@ const Hobbies = () => {
 
           <div className="flex p-3 hobby justify-center items-center text-4xl m-2 w-64 max-[499px]:text-sm">
             <i class="fa-solid fa-book"></i>
-            <p className="ml-6">Reading Books</p>
+            <p className="ml-6">Reading</p>
           </div>
 
           <div className="flex p-3 hobby justify-center items-center text-4xl m-2 w-64 max-[499px]:text-sm">
