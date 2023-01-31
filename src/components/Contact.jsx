@@ -9,7 +9,7 @@ const Contact = () => {
       </h2>
       <div className="flex justify-center items-center max-[499px]:flex-col max-[899px]:flex-col ">
         <div className="max-[499px]:mb-10 mr-6 max-[499px]:w-72 max-[899px]:mb-10 max-[899px]:w-80">
-          <img className="w-80 rounded-xl cl-img" src={Aaimg} alt="img" />
+          <img className="w-[340px] rounded-xl cl-img" src={Aaimg} alt="img" />
         </div>
 
         <div>
