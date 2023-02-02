@@ -9,27 +9,55 @@ import E2img from "../assets/e2.jpg";
 const Projects = () => {
   return (
     <>
-      <section className="projects pl-20 pr-20 pb-20 pt-20 bg-slate-100 max-[499px]:p-10 max-[899px]:p-20 max-[399px]:p-2">
+      <section className="projects p-20 bg-slate-100 min-[350px]:p-2 min-[350px]:mt-10 min-[350px]:pt-10 min-[350px]:pb-10">
         <h2 className="my-title font-semibold">My Projects</h2>
 
-        <div className="flex-col justify-between  max-[499px]:w-72 max-[899px]:w-full max-[499px]:ml-[22px] max-[399px]:ml-[36px]">
-          <div className="flex justify-around max-[499px]:flex-col max-[899px]:flex-col">
-            <img className="w-[420px]" src={Aimg} alt="img" />
-            <img className="w-[420px]" src={A2img} alt="img" />
-            <img className="w-[420px]" src={A3img} alt="img" />
-          </div>
-
-          <div className="flex justify-around max-[499px]:flex-col max-[899px]:flex-col">
-            <img className="w-[420px]" src={Eimg} alt="img" />
-            <img className="w-[420px]" src={E2img} alt="img" />
-            <img className="w-[420px]" src={Eimg} alt="img" />
-          </div>
-
-          <div className="flex justify-around max-[499px]:flex-col max-[899px]:flex-col">
-            <img className="w-[420px]" src={Dimg} alt="img" />
-            <img className="w-[420px]" src={Dimg} alt="img" />
-            <img className="w-[420px]" src={Dimg} alt="img" />
-          </div>
+        <div className="flex flex-wrap justify-between min-[350px]:justify-around">
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={A2img}
+            alt="img"
+          />
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={A3img}
+            alt="img"
+          />
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={Aimg}
+            alt="img"
+          />
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={Eimg}
+            alt="img"
+          />
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={E2img}
+            alt="img"
+          />
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={Eimg}
+            alt="img"
+          />
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={Dimg}
+            alt="img"
+          />
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={Dimg}
+            alt="img"
+          />
+          <img
+            className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+            src={Dimg}
+            alt="img"
+          />
         </div>
       </section>
     </>

@@ -3,40 +3,51 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="my-footer p-20 max-[499px]:p-5 max-[499px]:pb-20">
+      <div className="my-footer p-20 max-[499px]:p-4 max-[499px]:pb-16 max-[499px]:pt-10 my-footer-bg">
         <h2 className="my-title font-semibold">Contact Me</h2>
 
-        <div className="footer-right max-[499px]:text-sm">
-          <div className="flex justify-center items-center mt-5">
-            <i class="fa-solid fa-phone"></i>
-            <p className="ml-2">+880 1971258803</p>
-          </div>
-          <div className="flex justify-center items-center mt-5">
-            <i class="fa-solid fa-envelope"></i>
-            <p className="ml-2">nadim-chowdhury@outlook.com</p>
-          </div>
+        <div className="flex items-center justify-center">
+          <div className="footer-right max-[499px]:text-sm">
+            <div className="flex justify-center items-center">
+              <i class="fa-solid fa-phone"></i>
+              <p className="ml-2">+880 1971258803</p>
+            </div>
+            <div className="flex justify-center items-center mt-5">
+              <i class="fa-solid fa-envelope"></i>
+              <p className="ml-2">nadim-chowdhury@outlook.com</p>
+            </div>
+            <div className="flex justify-center items-center mt-5">
+              <i class="fa-solid fa-location-dot"></i>
+              <p className="ml-2">Dhaka, Bangladesh</p>
+            </div>
 
-          <div className="my-icons flex mt-5 justify-center">
-            <a className="mr-4" href="https://facebook.com/nadim.ch0wdhury">
-              <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a className="mr-4" href="https://twitter.com/nadim_ch0wdhury">
-              <i class="fa-brands fa-square-twitter"></i>
-            </a>
-            <a className="mr-4" href="https://instagram.com/nadim_ch0wdhury">
-              <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a className="mr-4" href="https://linkedin.com/in/nadim-chowdhury/">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/nadim-chowdhury">
-              <i class="fa-brands fa-square-github"></i>
-            </a>
-          </div>
-          <div className="text-center">
-            <h2 className="mt-5 max-[499px]:text-sm">
-              &copy; 2023 All Rights Reserved By Nadim Chowdhury.
-            </h2>
+            <div className="my-icons flex justify-center mt-5">
+              <a className="mr-4" href="https://facebook.com/nadim.ch0wdhury">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+              <a className="mr-4" href="https://twitter.com/nadim_ch0wdhury">
+                <i class="fa-brands fa-square-twitter"></i>
+              </a>
+              <a className="mr-4" href="https://instagram.com/nadim_ch0wdhury">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+              <a
+                className="mr-4"
+                href="https://linkedin.com/in/nadim-chowdhury/"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/nadim-chowdhury">
+                <i class="fa-brands fa-square-github"></i>
+              </a>
+            </div>
+
+            <div className="flex items-center justify-center mt-5">
+              <i class="fa-solid fa-copyright"></i>
+              <h2 className="ml-2 min-[350px]:text-[12px] md:text-xl">
+                2023 All Rights Reserved By Nadim Chowdhury.
+              </h2>
+            </div>
           </div>
         </div>
       </div>

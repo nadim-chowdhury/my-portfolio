@@ -3,46 +3,48 @@ import Aaimg from "../assets/a.png";
 
 const Contact = () => {
   return (
-    <div className="p-20 mb-5">
+    <div className="p-20 mb-5  min-[350px]:p-2  min-[350px]:mt-10  min-[350px]:mb-12">
       <h2 className="my-title font-semibold" id="contact">
         Share Thoughts
       </h2>
-      <div className="flex justify-center items-center max-[499px]:flex-col max-[899px]:flex-col ">
-        <div className="max-[499px]:mb-10 mr-6 max-[499px]:w-72 max-[899px]:mb-10 max-[899px]:w-80">
-          <img className="w-[340px] rounded-xl cl-img" src={Aaimg} alt="img" />
+      <div className="flex justify-center items-center min-[350px]:flex-col md:flex-row">
+        <div className="min-[350px]:mb-8 md:mr-5 md:pt-8 md:items-center">
+          <img
+            className="w-[320px] rounded-xl cl-img  min-[350px]:w-[280px] md:w-[320px]"
+            src={Aaimg}
+            alt="img"
+          />
         </div>
 
-        <div>
-          <div className="right-side max-[499px]:w-80">
-            <form action="#">
-              <div className="text-slate-800 flex justify-center max-[499px]:flex-col">
-                <input
-                  className="max-[499px]:w-[300px] xl:w-[360px] max-[899px]:w-64"
-                  type="text"
-                  placeholder="Enter Your Name"
-                />
-                <input
-                  className="max-[499px]:w-[300px] xl:w-[360px] max-[899px]:w-64"
-                  type="email"
-                  placeholder="Enter Your Email"
-                />
-              </div>
+        <div className="right-side">
+          <form action="#">
+            <div className="text-slate-100 flex justify-center max-[499px]:flex-col">
+              <input
+                className="max-[499px]:w-[300px] xl:w-[360px] md:w-50"
+                type="text"
+                placeholder="Enter Your Name"
+              />
+              <input
+                className="max-[499px]:w-[300px] xl:w-[360px] md:w-50"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
 
-              <div className="flex justify-center mb-5">
-                <textarea
-                  className="max-[499px]:w-[300px] max-[899px]:w-[534px] xl:w-[740px]"
-                  rows="8"
-                  placeholder="Enter Your Message"
-                ></textarea>
-              </div>
+            <div className="flex justify-center mb-5">
+              <textarea
+                className="max-[499px]:w-[300px] md:w-96 xl:w-[740px]"
+                rows="8"
+                placeholder="Enter Your Message"
+              ></textarea>
+            </div>
 
-              <div className="flex justify-center max-[499px]:w-80 max-[899px]:w-[550px]">
-                <button className="max-[499px]:ml-2 max-[499px]:mr-2">
-                  Send Now
-                </button>
-              </div>
-            </form>
-          </div>
+            <div className="flex justify-center max-[499px]:w-80 md:w-[382px] md:ml-3 lg:w-full lg:ml-0">
+              <button className="max-[499px]:ml-2 max-[499px]:mr-2 md:w-[380px]">
+                Send Now
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
