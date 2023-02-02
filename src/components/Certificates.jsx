@@ -12,8 +12,8 @@ import Iimg from "../assets/ii.jpeg";
 const Certificates = () => {
   return (
     <>
-      <section className="certificates pl-20 pr-20 pb-20 pt-20 bg-slate-100 min-[350px]:p-2 min-[350px]:pt-10 min-[350px]:mt-10 min-[350px]:pb-10">
-        <h2 className="my-title font-semibold">My Certificates</h2>
+      <section className="certificates lg:p-20 bg-slate-100 min-[350px]:p-2 min-[350px]:pt-10 min-[350px]:mt-10 min-[350px]:pb-10">
+        <h2 className="my-title font-semibold">MY CERTIFICATES</h2>
 
         <div className="flex justify-between min-[350px]:flex-col md:flex-row">
           <div className="p-10 min-[350px]:p-5">

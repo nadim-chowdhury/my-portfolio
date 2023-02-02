@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="p-20 mb-5  min-[350px]:p-2  min-[350px]:mt-10  min-[350px]:mb-12">
       <h2 className="my-title font-semibold" id="contact">
-        Share Thoughts
+        SHARE THOUGHTS
       </h2>
       <div className="flex justify-center items-center min-[350px]:flex-col md:flex-row">
         <div className="min-[350px]:mb-8 md:mr-5 md:pt-8 md:items-center">

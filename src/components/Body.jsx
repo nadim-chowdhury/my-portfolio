@@ -4,8 +4,8 @@ import "boxicons";
 const Body = () => {
   return (
     <>
-      <section className="my-skills pl-20 pr-20 pb-20 min-[350px]:p-2 min-[350px]:mt-10">
-        <h2 className="my-title font-semibold">My Skills</h2>
+      <section className="my-skills lg:pl-20 lg:pr-20 lg:pb-20 min-[350px]:p-2 min-[350px]:mt-10">
+        <h2 className="my-title font-semibold">MY SKILLS</h2>
 
         <div className="flex flex-wrap justify-around">
           <div className="m-5 p-3 text-3xl min-[350px]:text-sm w-60 min-[350px]:m-1 flex items-center justify-center skills md:m-3 lg:w-72">

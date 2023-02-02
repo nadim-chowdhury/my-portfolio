@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <>
       <section className="my-education pl-20 pr-20 pb-20 min-[350px]:p-2 min-[350px]:mt-10">
-        <h2 className="my-title font-semibold">My Education</h2>
+        <h2 className="my-title font-semibold">MY EDUCATIONS</h2>
 
         <div className="flex flex-wrap items-center justify-around text-center">
           <div className="text-2xl w-[420px] m-6 p-5 education max-[499px]:text-sm max-[499px]:mb-5 max-[499px]:w-80 max-[899px]:mb-10 max-[899px]:w-[640px]">
