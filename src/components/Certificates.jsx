@@ -8,6 +8,10 @@ import Fimg from "../assets/ff.jpeg";
 import Gimg from "../assets/gg.jpeg";
 import Himg from "../assets/hh.jpeg";
 import Iimg from "../assets/ii.jpeg";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Certificates = () => {
   return (
@@ -18,54 +22,54 @@ const Certificates = () => {
         <div className="flex justify-between min-[350px]:flex-col md:flex-row">
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CT-B9J2MWSX">
-              <img src={Aimg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Aimg} alt="img" />
             </a>
           </div>
 
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CT-T6KQNCDI">
-              <img src={Bimg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Bimg} alt="img" />
             </a>
           </div>
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CC-EOPPOH8U">
-              <img src={Cimg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Cimg} alt="img" />
             </a>
           </div>
         </div>
         <div className="flex justify-between min-[350px]:flex-col md:flex-row">
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CC-O495X8XL">
-              <img src={Dimg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Dimg} alt="img" />
             </a>
           </div>
 
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CT-MAD1MQTN">
-              <img src={Eimg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Eimg} alt="img" />
             </a>
           </div>
 
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CC-6LZOPKVS">
-              <img src={Fimg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Fimg} alt="img" />
             </a>
           </div>
         </div>
         <div className="flex justify-between min-[350px]:flex-col md:flex-row">
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CT-R6MBUEYR">
-              <img src={Gimg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Gimg} alt="img" />
             </a>
           </div>
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CC-ZTEQLRVB">
-              <img src={Himg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Himg} alt="img" />
             </a>
           </div>
           <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
             <a href="https://www.sololearn.com/certificates/CT-QSWXSEZG">
-              <img src={Iimg} alt="img" />
+              <img data-aos="fade-up"  data-aos-offset="320" src={Iimg} alt="img" />
             </a>
           </div>
         </div>

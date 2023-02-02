@@ -1,9 +1,16 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const About = () => {
   return (
     <>
-      <section className="lg:p-24 min-[350px]:p-8 min-[350px]:mt-5 lg:mt-0">
+      <section
+        data-aos="fade-up"  data-aos-offset="320"
+        className="lg:p-24 min-[350px]:p-8 min-[350px]:mt-5 lg:mt-0"
+      >
         <h2 className="my-title font-semibold" id="about">
           MY SELF
         </h2>

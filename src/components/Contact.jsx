@@ -1,5 +1,9 @@
 import React from "react";
 import Aaimg from "../assets/a.png";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Contact = () => {
   return (
@@ -7,8 +11,8 @@ const Contact = () => {
       <h2 className="my-title font-semibold" id="contact">
         SHARE THOUGHTS
       </h2>
-      <div className="flex justify-center items-center min-[350px]:flex-col md:flex-row">
-        <div className="min-[350px]:mb-8 md:mr-2 md:pt-8 md:items-center">
+      <div data-aos="fade-up"  data-aos-offset="320" className="flex justify-center items-center min-[350px]:flex-col md:flex-row">
+        <div className="min-[350px]:mb-8 md:mr-4 md:pt-8 md:items-center">
           <img
             className="w-[320px] rounded-xl cl-img  min-[350px]:w-[280px] md:w-[320px]"
             src={Aaimg}
