@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="my-footer p-20 max-[499px]:p-4 max-[499px]:pb-16 max-[499px]:pt-10 my-footer-bg">
         <h2 className="my-title font-semibold">CONTACT ME</h2>
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center lg:pt-6">
           <div className="footer-right max-[499px]:text-sm">
             <div className="flex justify-center items-center">
               <i class="fa-solid fa-phone"></i>

@@ -3,7 +3,7 @@ import React from "react";
 const Hobbies = () => {
   return (
     <>
-      <section className="my-hobbies pl-20 pr-20 pb-20 pt-20 min-[350px]:p-2 min-[350px]:mt-10">
+      <section className="my-hobbies lg:p-10 min-[350px]:p-2 min-[350px]:mt-10">
         <h2 className="my-title font-semibold">MY HOBBIES</h2>
 
         <div className="flex items-center justify-around hobbies flex-wrap">

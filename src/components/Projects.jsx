@@ -9,7 +9,7 @@ import E2img from "../assets/e2.jpg";
 const Projects = () => {
   return (
     <>
-      <section className="projects lg:p-20 bg-slate-100 min-[350px]:p-2 min-[350px]:mt-10 min-[350px]:pt-10 min-[350px]:pb-10">
+      <section className="projects lg:p-20 bg-slate-100 min-[350px]:p-2 min-[350px]:mt-10 min-[350px]:pt-10 min-[350px]:pb-14 lg:mt-0">
         <h2 className="my-title font-semibold">MY PROJECTS</h2>
 
         <div className="flex flex-wrap justify-between min-[350px]:justify-around">

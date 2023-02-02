@@ -3,7 +3,7 @@ import Aaimg from "../assets/a.png";
 
 const Contact = () => {
   return (
-    <div className="p-20 mb-5  min-[350px]:p-2  min-[350px]:mt-10  min-[350px]:mb-12">
+    <div className="p-20 mb-5  min-[350px]:p-2  min-[350px]:mt-10  min-[350px]:mb-12 lg:p-6">
       <h2 className="my-title font-semibold" id="contact">
         SHARE THOUGHTS
       </h2>
