@@ -8,7 +8,7 @@ const Contact = () => {
         SHARE THOUGHTS
       </h2>
       <div className="flex justify-center items-center min-[350px]:flex-col md:flex-row">
-        <div className="min-[350px]:mb-8 md:mr-5 md:pt-8 md:items-center">
+        <div className="min-[350px]:mb-8 md:mr-2 md:pt-8 md:items-center">
           <img
             className="w-[320px] rounded-xl cl-img  min-[350px]:w-[280px] md:w-[320px]"
             src={Aaimg}
