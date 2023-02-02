@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <div className="my-header" id="home">
         <div className="bg-png flex justify-around h-screen items-center min-[350px]:flex-col lg:flex-row">
-          <div className="header-left p-2 min-[350px]:mt-6">
+          <div data-aos="zoom-in" className="header-left p-2 min-[350px]:mt-6">
             <h3 className="lg:text-6xl mb-8 min-[350px]:text-xl min-[350px]:text-center lg:text-left md:text-5xl">
               Hello World!
             </h3>
@@ -56,7 +56,7 @@ const Header = () => {
           </div>
 
           <div className="header-right">
-            <div className="myself min-[350px]:w-60 min-[350px]:pb-5 md:w-full">
+            <div data-aos="zoom-in" className="myself min-[350px]:w-60 min-[350px]:pb-5 md:w-full">
               <img src={MySelf} alt="MySelf" />
             </div>
           </div>

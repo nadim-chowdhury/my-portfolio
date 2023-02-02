@@ -1,5 +1,5 @@
 import React from "react";
-import Aaimg from "../assets/a.png";
+import Aaimg from "../assets/myself.png";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
