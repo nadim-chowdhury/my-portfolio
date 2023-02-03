@@ -34,7 +34,6 @@ const Projects = () => {
           href="https://vanillaportfolio.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          {" "}
           <img data-aos="zoom-in" src={Cimg} alt="img" />
         </a>
 
@@ -46,17 +45,17 @@ const Projects = () => {
         </a>
 
         <a
-          href="https://gpt3aiclone.netlify.app/"
-          className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
-        >
-          <img data-aos="zoom-in" src={Eimg} alt="img" />
-        </a>
-
-        <a
           href="https://hoo-bnk.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
           <img data-aos="zoom-in" src={Fimg} alt="img" />
+        </a>
+
+        <a
+          href="https://gpt3aiclone.netlify.app/"
+          className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
+        >
+          <img data-aos="zoom-in" src={Eimg} alt="img" />
         </a>
 
         <a
