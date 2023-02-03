@@ -18,7 +18,7 @@ const Contact = () => {
       >
         <div className="min-[350px]:mb-8 md:mr-4 md:pt-8 md:items-center">
           <img
-            className="w-[320px] rounded-xl cl-img  min-[350px]:w-[280px] md:w-[320px]"
+            className="lg:w-[340px] rounded-xl cl-img  min-[350px]:w-[280px] md:w-[320px]"
             src={Aaimg}
             alt="img"
           />
