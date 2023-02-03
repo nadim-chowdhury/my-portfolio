@@ -20,14 +20,14 @@ const Projects = () => {
           href="https://greatcars.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          <img data-aos="fade-up" src={Aimg} alt="img" />
+          <img data-aos="zoom-in" src={Aimg} alt="img" />
         </a>
 
         <a
           href="https://ec0mmerce.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          <img data-aos="fade-up" src={Bimg} alt="img" />
+          <img data-aos="zoom-in" src={Bimg} alt="img" />
         </a>
 
         <a
@@ -35,49 +35,49 @@ const Projects = () => {
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
           {" "}
-          <img data-aos="fade-up" src={Cimg} alt="img" />
+          <img data-aos="zoom-in" src={Cimg} alt="img" />
         </a>
 
         <a
           href="https://coiinbase.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          <img data-aos="fade-up" src={Dimg} alt="img" />
+          <img data-aos="zoom-in" src={Dimg} alt="img" />
         </a>
 
         <a
           href="https://gpt3aiclone.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          <img data-aos="fade-up" src={Eimg} alt="img" />
+          <img data-aos="zoom-in" src={Eimg} alt="img" />
         </a>
 
         <a
           href="https://hoo-bnk.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          <img data-aos="fade-up" src={Fimg} alt="img" />
+          <img data-aos="zoom-in" src={Fimg} alt="img" />
         </a>
 
         <a
           href="https://greatcars.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          <img data-aos="fade-up" src={Aimg} alt="img" />
+          <img data-aos="zoom-in" src={Aimg} alt="img" />
         </a>
 
         <a
           href="https://ec0mmerce.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          <img data-aos="fade-up" src={Bimg} alt="img" />
+          <img data-aos="zoom-in" src={Bimg} alt="img" />
         </a>
 
         <a
           href="https://vanillaportfolio.netlify.app/"
           className="w-[30%] min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-1/4"
         >
-          <img data-aos="fade-up" src={Cimg} alt="img" />
+          <img data-aos="zoom-in" src={Cimg} alt="img" />
         </a>
       </div>
     </section>

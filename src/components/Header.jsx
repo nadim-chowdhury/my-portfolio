@@ -56,7 +56,11 @@ const Header = () => {
           </div>
 
           <div className="header-right">
-            <div data-aos="zoom-in" data-aos-offset="50" className="myself min-[350px]:w-60 min-[350px]:pb-5 md:w-full">
+            <div
+              data-aos="zoom-in"
+              data-aos-offset="50"
+              className="myself min-[350px]:w-60 min-[350px]:pb-5 md:w-full"
+            >
               <img src={MySelf} alt="MySelf" />
             </div>
           </div>

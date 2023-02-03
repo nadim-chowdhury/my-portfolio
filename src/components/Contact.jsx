@@ -11,7 +11,11 @@ const Contact = () => {
       <h2 className="my-title font-semibold" id="contact">
         SHARE THOUGHTS
       </h2>
-      <div data-aos="fade-up"  data-aos-offset="320" className="flex justify-center items-center min-[350px]:flex-col md:flex-row">
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        className="flex justify-center items-center min-[350px]:flex-col md:flex-row"
+      >
         <div className="min-[350px]:mb-8 md:mr-4 md:pt-8 md:items-center">
           <img
             className="w-[320px] rounded-xl cl-img  min-[350px]:w-[280px] md:w-[320px]"

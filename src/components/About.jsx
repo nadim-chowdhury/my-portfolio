@@ -8,7 +8,8 @@ const About = () => {
   return (
     <>
       <section
-        data-aos="fade-up"  data-aos-offset="320"
+        data-aos="zoom-in"
+        data-aos-offset="250"
         className="lg:p-24 min-[350px]:p-8 min-[350px]:mt-5 lg:mt-0"
       >
         <h2 className="my-title font-semibold" id="about">
