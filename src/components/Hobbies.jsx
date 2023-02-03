@@ -7,7 +7,7 @@ AOS.init();
 const Hobbies = () => {
   return (
     <>
-      <section className="my-hobbies lg:p-20 min-[350px]:p-2 min-[350px]:mt-10">
+      <section className="my-hobbies lg:pb-10 lg:pl-20 lg:pr-20 min-[350px]:p-2">
         <h2 className="my-title font-semibold">MY HOBBIES</h2>
 
         <div className="flex items-center justify-around hobbies flex-wrap">

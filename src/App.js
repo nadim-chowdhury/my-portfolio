@@ -13,6 +13,7 @@ import Projects from "./components/Projects";
 import Hobbies from "./components/Hobbies";
 import Education from "./components/Education";
 import Certificates from "./components/Certificates";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <About />
         <Body />
         <Projects />
+        <Services />
         <Hobbies />
         <Education />
         <Certificates />

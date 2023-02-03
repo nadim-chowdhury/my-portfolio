@@ -1,5 +1,5 @@
 import React from "react";
-import Aaimg from "../assets/myself.png";
+import Aaimg from "../assets/myself.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
@@ -7,8 +7,8 @@ AOS.init();
 
 const Contact = () => {
   return (
-    <div className="p-20 mb-5  min-[350px]:p-2  min-[350px]:mt-10  min-[350px]:mb-12 lg:p-6">
-      <h2 className="my-title font-semibold" id="contact">
+    <div className="p-20 pb-5  min-[350px]:p-2  min-[350px]:pt-10  min-[350px]:pb-12 lg:p-6 bg-cvrr">
+      <h2 className="my-title font-semibold lg:pt-5" id="contact">
         SHARE THOUGHTS
       </h2>
       <div

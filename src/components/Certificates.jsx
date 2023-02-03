@@ -15,111 +15,109 @@ AOS.init();
 
 const Certificates = () => {
   return (
-    <>
-      <section className="certificates lg:p-20 bg-slate-100 min-[350px]:p-2 min-[350px]:pt-10 min-[350px]:mt-10 min-[350px]:pb-10">
-        <h2 className="my-title font-semibold">MY CERTIFICATES</h2>
+    <section className="certificates lg:p-20 bg-slate-100 min-[350px]:p-2 min-[350px]:pt-10 min-[350px]:mt-10 min-[350px]:pb-10">
+      <h2 className="my-title font-semibold">MY CERTIFICATES</h2>
 
-        <div className="flex justify-between min-[350px]:flex-col md:flex-row">
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CT-B9J2MWSX">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Aimg}
-                alt="img"
-              />
-            </a>
-          </div>
-
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CT-T6KQNCDI">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Bimg}
-                alt="img"
-              />
-            </a>
-          </div>
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CC-EOPPOH8U">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Cimg}
-                alt="img"
-              />
-            </a>
-          </div>
+      <div className="flex justify-between min-[350px]:flex-col md:flex-row">
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CT-B9J2MWSX">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Aimg}
+              alt="img"
+            />
+          </a>
         </div>
-        <div className="flex justify-between min-[350px]:flex-col md:flex-row">
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CC-O495X8XL">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Dimg}
-                alt="img"
-              />
-            </a>
-          </div>
 
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CT-MAD1MQTN">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Eimg}
-                alt="img"
-              />
-            </a>
-          </div>
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CT-T6KQNCDI">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Bimg}
+              alt="img"
+            />
+          </a>
+        </div>
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CC-EOPPOH8U">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Cimg}
+              alt="img"
+            />
+          </a>
+        </div>
+      </div>
+      <div className="flex justify-between min-[350px]:flex-col md:flex-row">
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CC-O495X8XL">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Dimg}
+              alt="img"
+            />
+          </a>
+        </div>
 
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CC-6LZOPKVS">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Fimg}
-                alt="img"
-              />
-            </a>
-          </div>
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CT-MAD1MQTN">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Eimg}
+              alt="img"
+            />
+          </a>
         </div>
-        <div className="flex justify-between min-[350px]:flex-col md:flex-row">
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CT-R6MBUEYR">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Gimg}
-                alt="img"
-              />
-            </a>
-          </div>
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CC-ZTEQLRVB">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Himg}
-                alt="img"
-              />
-            </a>
-          </div>
-          <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
-            <a href="https://www.sololearn.com/certificates/CT-QSWXSEZG">
-              <img
-                data-aos="zoom-in"
-                data-aos-offset="250"
-                src={Iimg}
-                alt="img"
-              />
-            </a>
-          </div>
+
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CC-6LZOPKVS">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Fimg}
+              alt="img"
+            />
+          </a>
         </div>
-      </section>
-    </>
+      </div>
+      <div className="flex justify-between min-[350px]:flex-col md:flex-row">
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CT-R6MBUEYR">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Gimg}
+              alt="img"
+            />
+          </a>
+        </div>
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CC-ZTEQLRVB">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Himg}
+              alt="img"
+            />
+          </a>
+        </div>
+        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
+          <a href="https://www.sololearn.com/certificates/CT-QSWXSEZG">
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="250"
+              src={Iimg}
+              alt="img"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
   );
 };
 
