@@ -13,7 +13,6 @@ const Education = () => {
         <div className="flex flex-wrap items-center justify-around text-center">
           <div
             data-aos="zoom-in"
-            data-aos-offset="250"
             className="lg:text-2xl lg:w-[28%] m-6 p-5 education max-[499px]:text-sm max-[499px]:mb-5 max-[499px]:w-80 max-[899px]:mb-10 max-[899px]:w-[640px]"
           >
             <h3 className="mb-4 text-4xl font-medium">B.S.C</h3>
@@ -26,7 +25,6 @@ const Education = () => {
 
           <div
             data-aos="zoom-in"
-            data-aos-offset="250"
             className="lg:text-2xl lg:w-[28%] m-6 p-5 education max-[499px]:text-sm max-[499px]:mb-5 max-[499px]:w-80 max-[899px]:mb-10 max-[899px]:w-[640px]"
           >
             <h3 className="mb-4 text-4xl font-medium">H.S.C</h3>
@@ -39,7 +37,6 @@ const Education = () => {
 
           <div
             data-aos="zoom-in"
-            data-aos-offset="250"
             className="lg:text-2xl lg:w-[28%] m-6 p-5 education max-[499px]:text-sm max-[499px]:w-80 max-[899px]:w-[640px]"
           >
             <h3 className="mb-4 text-4xl font-medium">S.S.C</h3>

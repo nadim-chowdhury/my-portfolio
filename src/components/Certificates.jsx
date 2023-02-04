@@ -23,7 +23,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CT-B9J2MWSX">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Aimg}
               alt="img"
             />
@@ -34,7 +33,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CT-T6KQNCDI">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Bimg}
               alt="img"
             />
@@ -44,7 +42,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CC-EOPPOH8U">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Cimg}
               alt="img"
             />
@@ -56,7 +53,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CC-O495X8XL">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Dimg}
               alt="img"
             />
@@ -67,7 +63,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CT-MAD1MQTN">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Eimg}
               alt="img"
             />
@@ -78,7 +73,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CC-6LZOPKVS">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Fimg}
               alt="img"
             />
@@ -90,7 +84,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CT-R6MBUEYR">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Gimg}
               alt="img"
             />
@@ -100,7 +93,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CC-ZTEQLRVB">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Himg}
               alt="img"
             />
@@ -110,7 +102,6 @@ const Certificates = () => {
           <a href="https://www.sololearn.com/certificates/CT-QSWXSEZG">
             <img
               data-aos="zoom-in"
-              data-aos-offset="250"
               src={Iimg}
               alt="img"
             />

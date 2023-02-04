@@ -12,11 +12,9 @@ const Contact = () => {
         SHARE THOUGHTS
       </h2>
       <div
-        data-aos="zoom-in"
-        data-aos-offset="50"
         className="flex justify-center items-center min-[350px]:flex-col md:flex-row"
       >
-        <div className="min-[350px]:mb-8 md:mr-4 md:pt-8 md:items-center">
+        <div data-aos="zoom-in" className="min-[350px]:mb-8 md:mr-4 md:pt-8 md:items-center">
           <img
             className="lg:w-[340px] rounded-xl cl-img  min-[350px]:w-[280px] md:w-[320px]"
             src={Aaimg}
@@ -24,7 +22,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="right-side">
+        <div data-aos="zoom-in" className="right-side">
           <form action="#">
             <div className="text-slate-100 flex justify-center max-[499px]:flex-col">
               <input

@@ -13,7 +13,6 @@ const Hobbies = () => {
         <div className="flex items-center justify-around hobbies flex-wrap">
           <div
             data-aos="zoom-in"
-            data-aos-offset="250"
             className="flex m-5 p-3 hobby justify-center items-center text-4xl w-64 min-[350px]:text-sm min-[350px]:m-1 md:m-3"
           >
             <i class="fa-solid fa-book"></i>
@@ -22,7 +21,6 @@ const Hobbies = () => {
 
           <div
             data-aos="zoom-in"
-            data-aos-offset="250"
             className="flex m-5 p-3 hobby justify-center items-center text-4xl w-64 min-[350px]:text-sm min-[350px]:m-1 md:m-3"
           >
             <i class="fa-solid fa-music"></i>
@@ -31,7 +29,6 @@ const Hobbies = () => {
 
           <div
             data-aos="zoom-in"
-            data-aos-offset="250"
             className="flex m-5 p-3 hobby justify-center items-center text-4xl w-64 min-[350px]:text-sm min-[350px]:m-1 md:m-3"
           >
             <i class="fa-solid fa-plane"></i>
@@ -40,7 +37,6 @@ const Hobbies = () => {
 
           <div
             data-aos="zoom-in"
-            data-aos-offset="250"
             className="flex m-5 p-3 hobby justify-center items-center text-4xl w-64 min-[350px]:text-sm min-[350px]:m-1 md:m-3"
           >
             <i class="fa-solid fa-gamepad"></i>
@@ -49,7 +45,6 @@ const Hobbies = () => {
 
           <div
             data-aos="zoom-in"
-            data-aos-offset="250"
             className="flex m-5 p-3 hobby justify-center items-center text-4xl w-64 min-[350px]:text-sm min-[350px]:m-1 md:m-3"
           >
             <i class="fa-solid fa-camera"></i>

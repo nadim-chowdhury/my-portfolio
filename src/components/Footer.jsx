@@ -11,7 +11,6 @@ const Footer = () => {
 
       <div
         data-aos="zoom-in"
-        data-aos-offset="250"
         className="flex items-center justify-center lg:pt-6"
       >
         <div className="footer-right max-[499px]:text-sm">

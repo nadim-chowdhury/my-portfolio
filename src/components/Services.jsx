@@ -9,26 +9,35 @@ const Services = () => {
       <h2 className="my-title font-semibold">MY SERVICES</h2>
 
       <div className="flex justify-between min-[350px]:flex-col md:flex-row">
-        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1 services m-5">
+        <div
+          data-aos="zoom-in"
+          className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1 services m-5"
+        >
           <h4 className="mt-4 mb-2 text-2xl text-center pb-10 max-[499px]:text-xl">
             Frontend Development
           </h4>
-          <img data-aos="zoom-in" data-aos-offset="250" src={Aximg} alt="img" />
+          <img src={Aximg} alt="img" />
         </div>
 
-        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1 services m-5">
+        <div
+          data-aos="zoom-in"
+          className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1 services m-5"
+        >
           <h4 className="mt-4 mb-2 text-2xl text-center pb-10 max-[499px]:text-xl">
             Full Stack Web Development
           </h4>
-
-          <img data-aos="zoom-in" data-aos-offset="250" src={Bximg} alt="img" />
+          <img src={Bximg} alt="img" />
         </div>
-        <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1  services m-5">
+
+        <div
+          data-aos="zoom-in"
+          className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1  services m-5"
+        >
           <h4 className="mt-4 mb-2 text-2xl text-center pb-10 max-[499px]:text-xl">
             Single Page Application
           </h4>
 
-          <img data-aos="zoom-in" data-aos-offset="250" src={Cximg} alt="img" />
+          <img src={Cximg} alt="img" />
         </div>
       </div>
     </section>

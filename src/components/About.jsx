@@ -7,15 +7,14 @@ AOS.init();
 const About = () => {
   return (
     <>
-      <section
-        data-aos="zoom-in"
-        data-aos-offset="250"
-        className="lg:p-24 min-[350px]:p-8 min-[350px]:mt-5 lg:mt-0"
-      >
+      <section className="lg:p-24 min-[350px]:p-8 min-[350px]:mt-5 lg:mt-0">
         <h2 className="my-title font-semibold" id="about">
           MY SELF
         </h2>
-        <p className="lg:text-3xl text-center min-[350px]:text-xl md:text-2xl">
+        <p
+          data-aos="zoom-in"
+          className="lg:text-3xl text-center min-[350px]:text-xl md:text-2xl"
+        >
           I'm a creative and passionate web developer who likes to build and
           develop websites for anyone. Learning, improving skills, and adapting
           to new technologies are my hobbies. I can give my total effort and
