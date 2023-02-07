@@ -99,12 +99,27 @@ body {
   background: linear-gradient(to left, #2c5364, #203a43);
 }
 
-.projects img {
+.project {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
 }
 
-.projects img:hover {
+.project h3 {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.project ul li {
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+.project img {
+  border-radius: 10px;
+}
+
+.project img:hover {
   transition: 0.3s;
   cursor: pointer;
 }
