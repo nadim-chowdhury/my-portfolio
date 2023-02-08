@@ -21,90 +21,54 @@ const Certificates = () => {
       <div className="flex justify-between min-[350px]:flex-col md:flex-row">
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CT-B9J2MWSX">
-            <img
-              data-aos="zoom-in"
-              src={Aimg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Aimg} alt="img" />
           </a>
         </div>
 
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CT-T6KQNCDI">
-            <img
-              data-aos="zoom-in"
-              src={Bimg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Bimg} alt="img" />
           </a>
         </div>
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CC-EOPPOH8U">
-            <img
-              data-aos="zoom-in"
-              src={Cimg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Cimg} alt="img" />
           </a>
         </div>
       </div>
       <div className="flex justify-between min-[350px]:flex-col md:flex-row">
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CC-O495X8XL">
-            <img
-              data-aos="zoom-in"
-              src={Dimg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Dimg} alt="img" />
           </a>
         </div>
 
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CT-MAD1MQTN">
-            <img
-              data-aos="zoom-in"
-              src={Eimg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Eimg} alt="img" />
           </a>
         </div>
 
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CC-6LZOPKVS">
-            <img
-              data-aos="zoom-in"
-              src={Fimg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Fimg} alt="img" />
           </a>
         </div>
       </div>
       <div className="flex justify-between min-[350px]:flex-col md:flex-row">
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CT-R6MBUEYR">
-            <img
-              data-aos="zoom-in"
-              src={Gimg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Gimg} alt="img" />
           </a>
         </div>
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CC-ZTEQLRVB">
-            <img
-              data-aos="zoom-in"
-              src={Himg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Himg} alt="img" />
           </a>
         </div>
         <div className="lg:p-10 min-[350px]:p-10 min-[350px]:pt-1">
           <a href="https://www.sololearn.com/certificates/CT-QSWXSEZG">
-            <img
-              data-aos="zoom-in"
-              src={Iimg}
-              alt="img"
-            />
+            <img data-aos="zoom-in" src={Iimg} alt="img" />
           </a>
         </div>
       </div>

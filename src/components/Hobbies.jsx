@@ -47,6 +47,14 @@ const Hobbies = () => {
             data-aos="zoom-in"
             className="flex m-5 p-3 hobby justify-center items-center text-4xl w-64 min-[350px]:text-sm min-[350px]:m-1 md:m-3"
           >
+            <i class="fa-solid fa-futbol"></i>
+            <p className="ml-6">Playing</p>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            className="flex m-5 p-3 hobby justify-center items-center text-4xl w-64 min-[350px]:text-sm min-[350px]:m-1 md:m-3"
+          >
             <i class="fa-solid fa-camera"></i>
             <p className="ml-6">Photography</p>
           </div>

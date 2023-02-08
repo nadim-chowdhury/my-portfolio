@@ -8,16 +8,16 @@ const Header = () => {
       <div className="my-header" id="home">
         <div className="bg-png flex justify-around h-screen items-center min-[350px]:flex-col lg:flex-row">
           <div data-aos="zoom-in" className="header-left p-2 min-[350px]:mt-6">
-            <h3 className="lg:text-6xl lg:mb-14 md:mb-10 min-[350px]:mb-6 min-[350px]:text-xl min-[350px]:text-center lg:text-left md:text-5xl">
+            <h3 className="lg:text-6xl lg:mb-12 md:mb-10 min-[350px]:mb-6 min-[350px]:text-xl min-[350px]:text-center lg:text-left md:text-5xl">
               Hello World!
             </h3>
-            <h1 className="lg:text-7xl lg:mb-14 md:mb-10 min-[350px]:mb-6 min-[350px]:text-2xl min-[350px]:text-center lg:text-left md:text-6xl">
+            <h1 className="lg:text-7xl lg:mb-12 md:mb-10 min-[350px]:mb-6 min-[350px]:text-2xl min-[350px]:text-center lg:text-left md:text-6xl">
               It's Me <b className="text-gradient">Nadim Chowdhury</b>
             </h1>
-            <h2 className="lg:text-6xl lg:mb-14 md:mb-10 min-[350px]:mb-6 min-[350px]:text-xl min-[350px]:text-center lg:text-left md:text-5xl">
+            <h2 className="lg:text-6xl lg:mb-12 md:mb-10 min-[350px]:mb-6 min-[350px]:text-xl min-[350px]:text-center lg:text-left md:text-5xl">
               I'm A <b className="text-gradient">Web Developer</b>
             </h2>
-            <h3 className="lg:text-4xl lg:mb-14 md:mb-10 min-[350px]:mb-6 min-[350px]:text-sm min-[350px]:text-center lg:text-left md:text-3xl">
+            <h3 className="lg:text-4xl lg:mb-12 md:mb-10 min-[350px]:mb-6 min-[350px]:text-sm min-[350px]:text-center lg:text-left md:text-3xl">
               <Typewriter
                 options={{
                   strings: [
