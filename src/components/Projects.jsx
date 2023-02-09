@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="flex flex-wrap justify-between min-[350px]:justify-around">
         <div
           data-aos="zoom-in"
-          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[45%] project"
+          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[30%] project"
         >
           <a href="https://ec0mmerce.netlify.app">
             <img src={Aimg} alt="img" />
@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
         <div
           data-aos="zoom-in"
-          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[45%] project"
+          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[30%] project"
         >
           <a href="https://greatcars.netlify.app">
             <img src={Bimg} alt="img" />
@@ -36,7 +36,7 @@ const Projects = () => {
         </div>
         <div
           data-aos="zoom-in"
-          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[45%] project"
+          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[30%] project"
         >
           <a href="https://hoo-bnk.netlify.app">
             <img src={Cimg} alt="img" />
@@ -44,7 +44,7 @@ const Projects = () => {
         </div>
         <div
           data-aos="zoom-in"
-          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[45%] project"
+          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[30%] project"
         >
           <a href="https://gpt3aiclone.netlify.app">
             <img src={Dimg} alt="img" />
@@ -52,7 +52,7 @@ const Projects = () => {
         </div>
         <div
           data-aos="zoom-in"
-          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[45%] project"
+          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[30%] project"
         >
           <a href="https://coiinbase.netlify.app">
             <img src={Eimg} alt="img" />
@@ -60,7 +60,7 @@ const Projects = () => {
         </div>
         <div
           data-aos="zoom-in"
-          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[45%] project"
+          className="min-[350px]:w-4/5 min-[350px]:m-3 md:w-[40%] md:m-5 lg:w-[30%] project"
         >
           <a href="https://vanillaportfolio.netlify.app">
             <img src={Fimg} alt="img" />

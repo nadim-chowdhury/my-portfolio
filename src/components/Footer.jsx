@@ -48,7 +48,18 @@ const Footer = () => {
           <div className="flex items-center justify-center mt-5">
             <i class="fa-solid fa-copyright"></i>
             <h2 className="ml-2 min-[350px]:text-[12px] md:text-xl">
-              2023 All Rights Reserved By Nadim Chowdhury.
+              2023 All Rights Reserved By Nadim Chowdhury
+            </h2>
+          </div>
+
+          <div className="text-center mt-5">
+            <h2 className="min-[350px]:text-[12px] md:text-xl">
+              Special Thanks To: Anisul Islam, Learn With Sumit, Thapa
+              Technical, Code With Biswa, JavaScript Mastery, Kishan Sheth, Easy
+              Tutorials, Tech2 etc, ZainKeepsCode, DevelopedByEd, EdRoh, Yahoo
+              Baba, Academind, Apna College, Tanay Pratap, Jhankar Mahbub, Code
+              With Harry, Hablu Programmer, Hindi Tech Tutorials, Fireship,
+              Level Up Frontend
             </h2>
           </div>
         </div>

@@ -7,7 +7,7 @@ AOS.init();
 const Education = () => {
   return (
     <>
-      <section className="my-education pl-20 pr-20 pb-10 min-[350px]:p-2 min-[350px]:mt-5">
+      <section className="my-education lg:pl-16 lg:pr-16 lg:pb-10 min-[350px]:p-2 min-[350px]:mt-5">
         <h2 className="my-title font-semibold">MY EDUCATIONS</h2>
 
         <div className="flex flex-wrap items-center justify-around text-center">
